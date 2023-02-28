@@ -16,7 +16,7 @@
 
 ## How to run
 - in powershell navigate to directory with .py file 
-- type 'python <nameoffile>.py to run scanner
+- run .py file
 - input target url
 - Done!! ;)
 
