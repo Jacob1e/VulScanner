@@ -1,23 +1,27 @@
-# Vulnerability Scanner
-- This is a simple scanner tool that scans a website for XSS and SQL vulnerabilities.
+# 🕵️‍♂️ Vulnerability Scanner
 
-## Features
-- Scans website for forms, input fields, and scripts
-- Generates a report of vulnerabilities found
+This Python script performs a basic vulnerability scan on a given URL. It utilizes the `requests` and `BeautifulSoup` libraries to scan for HTML forms, input fields, and scripts.
 
-## Requirements to run
-- **`Python`**
-- **`PowerShell`**
+## ✨ Features
 
-## Setup
-- create .py file with vul scanner
-- install requests module in powershell with 'pip install requests'
-- install beautifulsoup4 module with "pip install beautifulsoup4'
+- Scans a URL for HTML forms, input fields, and scripts
+- Provides the number of forms, input fields, and scripts found
 
-## How to run
-- in powershell navigate to directory with .py file 
-- run .py file
-- input target url
-- Done!! ;)
+## 📋 Prerequisites
 
-##### Note: This is a very basic scanner and I plan on improving it
+- Python 3.x
+- `requests` library (`pip install requests`)
+- `BeautifulSoup` library (`pip install beautifulsoup4`)
+
+## 🚀 Usage
+
+1. Clone this repository or download the script.
+2. Open a terminal and navigate to the directory where the script is located.
+3. Run the script using `python3 VulScanner.py` (or `python VulScanner.py` if your default Python version is 3.x).
+4. Enter the URL you wish to scan.
+5. If the URL is valid and accessible, the script will begin scanning.
+6. After the scan is complete, the script will output the number of forms, input fields, and scripts found on the URL.
+
+## 📄 License
+
+[MIT](https://choosealicense.com/licenses/mit/)
